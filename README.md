@@ -2,7 +2,7 @@
 
 ![Project Image](https://i.imgur.com/qjbH9pG.png)
 
-> Project consists of menu, input and terminal. The solution was made using only essential technologies: HTML, CSS, JavaScript.
+> The project is composed of a menu, input interface, and terminal. The solution has been developed utilizing solely fundamental technologies, including HTML, CSS, and JavaScript.
 
 ---
 
