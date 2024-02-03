@@ -1,14 +1,3 @@
-.terminal {
-  height: 100vh;
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
-  margin: 0;
-}
-
 /* Terminal wrapper */
 .terminal > div {
   height: 400px;
@@ -17,6 +6,7 @@
   min-width: 280px;
   max-width: 600px;
 
+  margin: auto;
   overflow: hidden;
   border-radius: 10px;
 
