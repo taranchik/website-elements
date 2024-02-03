@@ -59,19 +59,19 @@ A terminal-like component that responds to commands entered by the user.
 
 Copy-paste the following commands into the terminal.
 
-1. Fetch the **website-elements** in your current directory
+1. Fetch the **website-elements** in your current directory.
 
 ```
 git clone https://github.com/taranchik/website-elements
 ```
 
-2. Go to the directory with the app
+2. Go to the directory with the app.
 
 ```
 cd website-elements
 ```
 
-3. Open **index.html** in prefered browser. For example in **Google Chrome**
+3. Open **index.html** in prefered browser. For example in **Google Chrome**.
 
 ```
 google-chrome index.html
