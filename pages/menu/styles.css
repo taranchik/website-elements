@@ -1,0 +1,164 @@
+/* Main menu */
+.menu > ul {
+  height: 60px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+  border-radius: 5px;
+  background-color: #f4f4f4;
+
+  padding: 0;
+  margin: 0;
+
+  list-style: none;
+  white-space: nowrap;
+}
+
+/* Gradient line after main menu */
+.menu > ul::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background: linear-gradient(
+    270deg,
+    #f00 0%,
+    rgba(255, 138, 0, 0.76) 15.5%,
+    rgba(219, 247, 44, 0.61) 30.5%,
+    #00ff57 47%,
+    #00b2ff 58.5%,
+    #0400d2 75.5%,
+    #fa00ff 88%,
+    #f00 100%
+  );
+}
+
+/* Each a tag within the menu */
+.menu > ul a {
+  text-decoration: none;
+}
+
+/* Each submenu within main menu */
+.menu > ul ul {
+  list-style: none;
+
+  padding: 0;
+}
+
+/* Each hovered li, which has nested ul, add arrow for dropped down menu */
+.menu > ul > li:hover:has(> ul) > a::before {
+  content: "";
+
+  position: absolute;
+  top: 52px;
+  left: 40%;
+
+  border: 9px solid transparent;
+  border-bottom-color: #f4f4f4;
+}
+
+/* Each a within li in main menu */
+.menu > ul > li > a {
+  position: relative;
+  display: inline-block;
+  padding: 18px 30px;
+
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-transform: lowercase;
+
+  color: #333;
+}
+
+/* Last li of main menu, to style promocje */
+.menu > ul > li:last-child {
+  margin: 12px 12px 12px auto;
+}
+
+/* Last a, li of main menu, to style promocje */
+.menu > ul > li:last-child > a {
+  display: inline-block;
+
+  padding: 7.5px 20.96px;
+  border-radius: 5px;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+
+  color: #ffffff;
+  background-color: #ff4242;
+}
+
+/* For each a from the main menu, which has nested ul li */
+.menu > ul > li:has(> ul) > a {
+  padding-right: 0;
+}
+
+/* For each li from the main menu, which has nested ul, add down side arrow sign */
+.menu > ul > li:has(> ul) > a::after {
+  width: 16px;
+  height: 7px;
+
+  display: inline-block;
+  content: "";
+
+  margin: 0 4px 0 10px;
+  vertical-align: middle;
+  background-image: url("/img/formkit_down.svg");
+}
+
+/* For each hovered li from the main menu, which has nested ul, add up side arrow sign */
+.menu > ul > li:hover:has(> ul) > a::after {
+  background-image: url("/img/formkit_up.svg");
+}
+
+/* Each ul from main menu li tag (submenus) */
+.menu > ul > li > ul {
+  width: 100%;
+  display: none;
+
+  position: absolute;
+  top: 70px;
+  left: 0;
+  z-index: 1;
+
+  border-radius: 5px;
+  background-color: #f4f4f4;
+}
+
+/* Each ul from main menu hovered li tag (display submenus) */
+.menu > ul > li:hover > ul {
+  display: flex;
+}
+
+/* Each li from main menu li ul tag (submenu-submenus) */
+.menu > ul > li > ul > li {
+  padding: 30px 115px 33px 30px;
+}
+
+/* a - sub-submenus styles text */
+.menu > ul > li > ul > li > a {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  color: #000;
+  font-weight: 500;
+}
+
+/* ul - sub-sub-submenus styles */
+.menu > ul > li > ul > li > ul {
+  margin-top: 12px;
+}
+
+/* a - sub-sub-submenus styles text */
+.menu > ul > li > ul > li > ul > li > a {
+  color: #000;
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+}
