@@ -20,19 +20,19 @@
 
 ### Menu
 
-#### The menu focuses mainly on the design, where no JavaScript has been applied
+The menu focuses mainly on the design, where no JavaScript has been applied
 
 ![Menu](https://i.imgur.com/EHBcYpU.jpeg)
 
 ### Search
 
-#### The seach has three states: not active, search for results and results. Information presented in the suggestions is retrieved from an external API.
+The seach has three states: not active, search for results and results. Information presented in the suggestions is retrieved from an external API.
 
 ![Search](https://i.imgur.com/yc6hlc4.jpeg)
 
 ### Terminal
 
-#### A terminal-like component that responds to commands entered by the user. 
+A terminal-like component that responds to commands entered by the user.
 
 #### The terminal has the following built-in commands:
 
