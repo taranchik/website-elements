@@ -65,7 +65,7 @@ Copy-paste the following commands into the terminal.
 git clone https://github.com/taranchik/website-elements
 ```
 
-2. Go to the directory with the app.
+2. Go to the project directory.
 
 ```
 cd website-elements
