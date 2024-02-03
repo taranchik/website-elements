@@ -59,7 +59,7 @@ A terminal-like component that responds to commands entered by the user.
 
 Copy-paste the following commands into the terminal.
 
-1. Fetch the Website Elements in your current directory
+1. Fetch the website-elements in your current directory
 
 ```
 git clone https://github.com/taranchik/website-elements
